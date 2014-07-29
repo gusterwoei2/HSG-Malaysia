@@ -1,0 +1,31 @@
+[21-Jan-2014 20:08:15 Asia/Kuala_Lumpur] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (28000/1045): Access denied for user 'hsgm_webmaster'@'localhost' (using password: YES) in /home/hsgm/public_html/administrator/library/opendb.php on line 12
+[21-Jan-2014 20:08:15 Asia/Kuala_Lumpur] PHP Warning:  mysqli::close() [<a href='mysqli.close'>mysqli.close</a>]: Couldn't fetch mysqli in /home/hsgm/public_html/administrator/library/closedb.php on line 3
+[21-Jan-2014 20:08:15 Asia/Kuala_Lumpur] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (28000/1045): Access denied for user 'hsgm_webmaster'@'localhost' (using password: YES) in /home/hsgm/public_html/administrator/library/opendb.php on line 12
+[21-Jan-2014 20:08:15 Asia/Kuala_Lumpur] PHP Warning:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli in /home/hsgm/public_html/administrator/library/bannerclass.php on line 108
+[21-Jan-2014 20:08:15 Asia/Kuala_Lumpur] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/hsgm/public_html/administrator/library/bannerclass.php on line 127
+[21-Jan-2014 20:08:56 Asia/Kuala_Lumpur] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (28000/1045): Access denied for user 'hsgm_webmaster'@'localhost' (using password: YES) in /home/hsgm/public_html/administrator/library/opendb.php on line 12
+[21-Jan-2014 20:08:56 Asia/Kuala_Lumpur] PHP Warning:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli in /home/hsgm/public_html/administrator/index.php on line 12
+[21-Jan-2014 20:08:56 Asia/Kuala_Lumpur] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/hsgm/public_html/administrator/index.php on line 13
+[22-Jan-2014 01:10:31 Asia/Kuala_Lumpur] PHP Fatal error:  Call to a member function close() on a non-object in /home/hsgm/public_html/administrator/library/closedb.php on line 3
+[22-Jan-2014 01:10:46 Asia/Kuala_Lumpur] PHP Fatal error:  Call to a member function close() on a non-object in /home/hsgm/public_html/administrator/library/closedb.php on line 3
+[22-Jan-2014 01:11:01 Asia/Kuala_Lumpur] PHP Fatal error:  Call to a member function close() on a non-object in /home/hsgm/public_html/administrator/library/closedb.php on line 3
+[22-Jan-2014 01:11:15 Asia/Kuala_Lumpur] PHP Fatal error:  Call to a member function close() on a non-object in /home/hsgm/public_html/administrator/library/closedb.php on line 3
+[22-Jan-2014 01:11:25 Asia/Kuala_Lumpur] PHP Fatal error:  Call to a member function close() on a non-object in /home/hsgm/public_html/administrator/library/closedb.php on line 3
+[22-Jan-2014 01:11:44 Asia/Kuala_Lumpur] PHP Fatal error:  Call to a member function close() on a non-object in /home/hsgm/public_html/administrator/library/closedb.php on line 3
+[22-Jan-2014 12:50:21 Asia/Kuala_Lumpur] PHP Fatal error:  Call to a member function close() on a non-object in /home/hsgm/public_html/administrator/library/closedb.php on line 3
+[22-Jan-2014 16:18:35 Asia/Kuala_Lumpur] PHP Fatal error:  Call to a member function close() on a non-object in /home/hsgm/public_html/administrator/library/closedb.php on line 3
+[19-Feb-2014 11:26:38 Asia/Kuala_Lumpur] PHP Fatal error:  Call to a member function close() on a non-object in /home/hsgm/public_html/administrator/library/closedb.php on line 3
+[19-Feb-2014 15:15:39 Asia/Kuala_Lumpur] PHP Fatal error:  Call to a member function close() on a non-object in /home/hsgm/public_html/administrator/library/closedb.php on line 3
+[19-Feb-2014 15:16:03 Asia/Kuala_Lumpur] PHP Fatal error:  Call to a member function close() on a non-object in /home/hsgm/public_html/administrator/library/closedb.php on line 3
+[19-Feb-2014 15:16:12 Asia/Kuala_Lumpur] PHP Fatal error:  Call to a member function close() on a non-object in /home/hsgm/public_html/administrator/library/closedb.php on line 3
+[19-Feb-2014 15:16:15 Asia/Kuala_Lumpur] PHP Fatal error:  Call to a member function close() on a non-object in /home/hsgm/public_html/administrator/library/closedb.php on line 3
+[19-Feb-2014 15:16:23 Asia/Kuala_Lumpur] PHP Fatal error:  Call to a member function close() on a non-object in /home/hsgm/public_html/administrator/library/closedb.php on line 3
+[14-Mar-2014 15:18:21 Asia/Kuala_Lumpur] PHP Fatal error:  Call to a member function close() on a non-object in /home/hsgm/public_html/administrator/library/closedb.php on line 3
+[14-Mar-2014 15:21:32 Asia/Kuala_Lumpur] PHP Fatal error:  Call to a member function close() on a non-object in /home/hsgm/public_html/administrator/library/closedb.php on line 3
+[10-Apr-2014 16:13:56 Asia/Kuala_Lumpur] PHP Fatal error:  Call to a member function close() on a non-object in /home/hsgm/public_html/administrator/library/closedb.php on line 3
+[10-Apr-2014 16:14:05 Asia/Kuala_Lumpur] PHP Fatal error:  Call to a member function close() on a non-object in /home/hsgm/public_html/administrator/library/closedb.php on line 3
+[10-Apr-2014 16:14:13 Asia/Kuala_Lumpur] PHP Fatal error:  Call to a member function close() on a non-object in /home/hsgm/public_html/administrator/library/closedb.php on line 3
+[10-Apr-2014 16:14:24 Asia/Kuala_Lumpur] PHP Fatal error:  Call to a member function close() on a non-object in /home/hsgm/public_html/administrator/library/closedb.php on line 3
+[10-Jul-2014 11:03:31 Asia/Kuala_Lumpur] PHP Fatal error:  Call to a member function close() on a non-object in /home/hsgm/public_html/administrator/library/closedb.php on line 3
+[10-Jul-2014 11:14:41 Asia/Kuala_Lumpur] PHP Fatal error:  Call to a member function close() on a non-object in /home/hsgm/public_html/administrator/library/closedb.php on line 3
+[10-Jul-2014 11:14:50 Asia/Kuala_Lumpur] PHP Fatal error:  Call to a member function close() on a non-object in /home/hsgm/public_html/administrator/library/closedb.php on line 3
