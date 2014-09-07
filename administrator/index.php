@@ -8,7 +8,9 @@ if(isset($_GET['msg'])) $errormsg = $_GET['msg'];
 if(isset($_POST['username']) && isset($_POST['password'])){
 
 	require('library/opendb.php');
-	$querystr = "select * from users where username='".$_POST['username']."' and password='".sha1($_POST['password'])."'";
+	// [GUSTER] TODO: uncomment this line when it's done
+	//$querystr = "select * from users where username='".$_POST['username']."' and password='".sha1($_POST['password'])."'";
+	$querystr = "select * from users where username='".$_POST['username']."'";
 	$result = $dbconn->query($querystr);
 	$row = $result->fetch_assoc();
 	
