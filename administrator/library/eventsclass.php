@@ -23,6 +23,7 @@ $status = "";
 require('opendb.php');
 $page = new adminpage();
 	
+echo 'getting events from the db';
 if($changetype == "edit"){
 	$querystr = "select * from events where id='".$changeid."'";
 	$result = $dbconn->query($querystr);
@@ -38,6 +39,8 @@ if($changetype == "edit"){
 	$linktype = $row["linktype"];
 	$link = $row["link"];
 	$status = $row["status"];
+
+	echo "event query = " . $querystr;
 }
 
 

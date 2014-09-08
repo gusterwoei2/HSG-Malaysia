@@ -197,6 +197,9 @@ public function displaysubmenu(){
 public function displaycontent(){
 
 require('library/opendb.php');
+require('library/facebookapi.php');
+require('library/twitterapi.php');
+
 echo'	
 <!-- Content Space Allocation Beginning Tag-->
 <div id="bgcontent">
@@ -223,15 +226,25 @@ else
 
 echo'</div>
 
-<div style="float:left;width:220px;padding:10px 10px 10px 20px;">'.$row['rightcontent'].'</div>
-';
-
+<div style="float:left;width:220px;padding:10px 10px 10px 20px;">'.$row['rightcontent'].'</div>';
 
 
 echo '
 <!-- Content Space Allocation Ending Tags-->
 </div></div>
 <!-- Content Space Allocation Ending Tags-->';
+
+
+// [GUSTER] test facebook api integration
+$facebookapi = new facebookapi(); 
+$facebookapi->init();
+$facebookapi->showShareLikeButtons('http://www.hsgmalaysia.org/');
+//$facebookapi->showPostDialog('http://www.google.com', null);
+
+// [GUSTER] test twitter api integration
+$twitterapi = new twitterapi();
+$twitterapi->showTweetButton();
+//$twitterapi->tweet('from php oh yeah man', array('wah', 'man', 'awesome'), 0);
 
 require('library/closedb.php');
 }
